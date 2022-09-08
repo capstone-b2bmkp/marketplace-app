@@ -1,6 +1,7 @@
 {
-  "name": "user-app-web",
+  "name": "frontend-b2b-mkp",
   "version": "0.1.0",
+  "description": "Capstone Frontend B2B Marketplace",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
