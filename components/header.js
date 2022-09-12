@@ -17,9 +17,9 @@ function Header() {
             </div>
         </nav>
         <nav class="bg-teal-100">
-        <div class="py-3 px-4 mx-auto max-w-screen-xl md:px-6">
+        <div class="py-3 px-4 mx-auto max-w-screen-xl md:px-6" id="navbar-multi-level">
             <div class="flex items-center">
-                <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
+                <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
                     <li>
                         <a href="#" class="block py-2 pr-4 pl-3 text-sm font-medium text-teal-700 hover:text-teal-400 cursor-pointer" aria-current="page">DESTACADOS</a>
                     </li>
