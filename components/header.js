@@ -1,6 +1,7 @@
 import styles from './../styles/Home.module.css'
 import logo from './../public/Logo.png'
 import Image from 'next/image'
+import { HiShoppingCart } from 'react-icons/hi';
 
 function Header() {
     return(
@@ -56,6 +57,11 @@ function Header() {
                         </div>
                         <input type="text" id="search-navbar" class="block p-2 pl-10 w-full text-neutral-50 bg-teal-900 rounded-lg border border-teal-500 sm:text-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Buscar producto..."/>
                     </div>
+                    </li>
+
+                    <li>
+                        <a className='cursor-pointer'><HiShoppingCart onMouseOver={({target})=>target.style.color="#0891b2"} 
+                        onMouseOut={({target})=>target.style.color="#1e3a8a"} color='#1e3a8a' size='40px' ></HiShoppingCart></a>
                     </li>
                 </ul>
             </div>
