@@ -1,5 +1,5 @@
 import styles from './../styles/Home.module.css'
-import logo from './../public/Logo.png'
+import logo from './../public/png/Logo.png'
 import Image from 'next/image'
 import { FaFacebook } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
